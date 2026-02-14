@@ -24,6 +24,8 @@ public final class PlaylistController: ObservableObject {
     
     private var timer: Timer?
     private var countdownTriggeredForVideoID: String?
+    private let watchedTagLifetime: TimeInterval = 24 * 60 * 60
+    private var watchedTimestampsByPlaylist: [String: [String: Date]] = [:]
     
     public var videos: [Video]
     public var playlists: [Playlist] = Playlist.allPlaylists
@@ -57,6 +59,21 @@ private extension PlaylistController {
     var completedVideoIDs: Set<String> {
         completedVideosByPlaylist[currentPlaylist.id] ?? []
     }
+
+    var currentPlaylistWatchedTimestamps: [String: Date] {
+        watchedTimestampsByPlaylist[currentPlaylist.id] ?? [:]
+    }
+
+    func hasWatchedTagExpired(at date: Date, now: Date = Date()) -> Bool {
+        now.timeIntervalSince(date) >= watchedTagLifetime
+    }
+
+    func refreshWatchedState(now: Date = Date()) {
+        var timestamps = currentPlaylistWatchedTimestamps
+        timestamps = timestamps.filter { !hasWatchedTagExpired(at: $0.value, now: now) }
+        watchedTimestampsByPlaylist[currentPlaylist.id] = timestamps
+        completedVideosByPlaylist[currentPlaylist.id] = Set(timestamps.keys)
+    }
 }
 
 
@@ -65,6 +82,8 @@ private extension PlaylistController {
 extension PlaylistController {
     
     func state(for video: Video) -> VideoState {
+
+        refreshWatchedState()
         
         if currentVideoID == video.id {
             return .watching
@@ -105,28 +124,31 @@ extension PlaylistController {
 extension PlaylistController {
     
     func videoStarted(id: String) {
+        refreshWatchedState()
         cancelCountdown()
         currentVideoID = id
         countdownTriggeredForVideoID = nil
     }
     
     func videoCompleted(id: String) {
-      // Update per-playlist progress
-             var set = completedVideosByPlaylist[currentPlaylist.id] ?? []
-             set.insert(id)
-             completedVideosByPlaylist[currentPlaylist.id] = set
-             
-             // Optional local flag update
-             if let index = videos.firstIndex(where: { $0.id == id }) {
-                 videos[index].isWatched = true
-             }
+      refreshWatchedState()
+      var watchedTimestamps = currentPlaylistWatchedTimestamps
+      watchedTimestamps[id] = Date()
+      watchedTimestampsByPlaylist[currentPlaylist.id] = watchedTimestamps
+      completedVideosByPlaylist[currentPlaylist.id] = Set(watchedTimestamps.keys)
+
+      if let index = videos.firstIndex(where: { $0.id == id }) {
+          videos[index].isWatched = true
+      }
     }
   
   func allVideoWatched() -> Bool {
+    refreshWatchedState()
     return completedVideoIDs.count == videos.count
   }
   
   func firstUnwatchedVideoID() -> Int? {
+    refreshWatchedState()
     return videos.map( \.id ).firstIndex(where: { !completedVideoIDs.contains($0) })
   }
 }
@@ -135,8 +157,12 @@ extension PlaylistController {
 extension PlaylistController {
     
   func triggerCountdownIfNeeded(currentID: String, remainingSeconds: Int) {
-         
-         guard remainingSeconds <= 20 else { return }
+         guard remainingSeconds <= 5, remainingSeconds > 0 else { return }
+
+         if countdownTriggeredForVideoID == currentID {
+             remainingTime = remainingSeconds
+             return
+         }
          
          // Prevent multiple triggers
          guard let index = videos.firstIndex(where: { $0.id == currentID }),
@@ -155,6 +181,7 @@ extension PlaylistController {
     
     /// Returns the correct video ID to resume from
     func nextVideoToPlayOnReturn() -> String? {
+      refreshWatchedState()
         
       let completed = completedVideoIDs
             
@@ -165,7 +192,11 @@ extension PlaylistController {
                 }
             }
             
-            // 2️⃣ If all watched → restart
+        // 2️⃣ If all watched → restart
+      if completed.count == videos.count {
+          watchedTimestampsByPlaylist[currentPlaylist.id] = [:]
+          completedVideosByPlaylist[currentPlaylist.id] = []
+      }
             return videos.first?.id
     }
 }
@@ -196,6 +227,7 @@ extension PlaylistController {
         guard let playlist = playlist else { return }
         currentPlaylist = playlist
         videos = playlist.videos
+        refreshWatchedState()
         
         // Resume from correct video
         currentVideoID = nextVideoToPlayOnReturn()
