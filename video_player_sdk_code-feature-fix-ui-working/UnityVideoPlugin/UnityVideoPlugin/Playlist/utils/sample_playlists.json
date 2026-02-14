@@ -1,0 +1,600 @@
+[
+  {
+        "id": "dinoworld",
+        "episodes": [
+            {
+                "index": 1,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Who_Am_I/Dino_World_Who_Am_I_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/101+EN.png",
+                "title": "Who Am I",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 2,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Im_a_Chef_Today/Dino_World_Im_a_Chef_Today_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/102+EN.png",
+                "title": "I'm a Chef Today",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 3,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_If_Dinosaurs_were_still_alive/Dino_World_If_Dinosaurs_were_still_alive_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/103+EN.png",
+                "title": "If Dinosaurs were still alive",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 4,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Dinosaurs_A_to_Z/Dino_World_Dinosaurs_A_to_Z_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/104+EN.png",
+                "title": "Dinosaurs A to Z",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 5,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Dinosaur_Parade/Dino_World_Dinosaur_Parade_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/105+EN.png",
+                "title": "Dinosaur Parade",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 6,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_I_am_the_Best/Dino_World_I_am_the_Best_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/106+EN.png",
+                "title": "I am the Best",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 7,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Where_Did_The_Dinosaurs_Go/Dino_World_Where_Did_The_Dinosaurs_Go_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/107+EN.png",
+                "title": "Where Did The Dinosaurs Go",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 8,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Move_Like_The_Dinosaurs/Dino_World_Move_Like_The_Dinosaurs_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/108+EN.png",
+                "title": "Move Like The Dinosaurs",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 9,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Boom_Boom_Dino_World/Dino_World_Boom_Boom_Dino_World_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/109+EN.png",
+                "title": "Boom Boom Dino World",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 10,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Tyrannosaurus_Rex/Dino_World_Tyrannosaurus_Rex_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/110+EN.png",
+                "title": "Tyrannosaurus Rex",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 11,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Dig_It_Up/Dino_World_Dig_It_Up_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/111+EN.png",
+                "title": "Dig It Up",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 12,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_AnimalSaurus/Dino_World_AnimalSaurus_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/112+EN.png",
+                "title": "Animal-Saurus",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 13,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Tyrannosaurus/Dino_World_Tyrannosaurus_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/113+EN.png",
+                "title": "Tyrannosaurus",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 14,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Spinosaurus_Vs_Tyrannosaurus/Dino_World_Spinosaurus_Vs_Tyrannosaurus_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/114+EN.png",
+                "title": "Spinosaurus Vs Tyrannosaurus",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 15,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Baby_TRex/Dino_World_Baby_TRex_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/115+EN.png",
+                "title": "Baby T-Rex",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 16,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Ankylosaurus/Dino_World_Ankylosaurus_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/116+EN.png",
+                "title": "Ankylosaurus",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 17,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Triceratops/Dino_World_Triceratops_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/117+EN.png",
+                "title": "Triceratops",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 18,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Pteranodon/Dino_World_Pteranodon_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/118+EN.png",
+                "title": "Pteranodon",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 19,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Brachiosaurus/Dino_World_Brachiosaurus_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/119+EN.png",
+                "title": "Brachiosaurus",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 20,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Pachycephalosaurus/Dino_World_Pachycephalosaurus_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/120+EN.png",
+                "title": "Pachycephalosaurus",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 21,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Diplodocus/Dino_World_Diplodocus_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/121+EN.png",
+                "title": "Diplodocus",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 22,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Elasmosaurus/Dino_World_Elasmosaurus_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/122+EN.png",
+                "title": "Elasmosaurus",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 23,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Maiasaura/Dino_World_Maiasaura_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/123+EN.png",
+                "title": "Maiasaura",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 24,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_Parasaurolophus/Dino_World_Parasaurolophus_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/124+EN.png",
+                "title": "Parasaurolophus",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 25,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Dino_World_The_Three_Mimuses/Dino_World_The_Three_Mimuses_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Dino+World/125+EN.png",
+                "title": "The Three Mimuses",
+                "isActive": 1,
+                "length": 796
+            }
+        ]
+    },
+    {
+        "id": "k-pop",
+        "episodes": [
+            {
+                "index": 1,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/KPop_Beauty_and_the_Beast/KPop_Beauty_and_the_Beast_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/K+Pop/Beauty+%26+the+beast.png",
+                "title": "Beauty and the Beast",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 2,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/KPop_Cinderella/KPop_Cinderella_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/K+Pop/cindrella.png",
+                "title": "Cinderella",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 3,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/KPop_Little_Mermaid/KPop_Little_Mermaid_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/K+Pop/the+little+mermaid.png",
+                "title": "Little Mermaid",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 4,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/KPop_My_Princess_World/KPop_My_Princess_World_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/K+Pop/my+princess+world.png",
+                "title": "My Princess World",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 5,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/KPop_Rapunzel/KPop_Rapunzel_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/K+Pop/Rapunzel.png",
+                "title": "Rapunzel",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 6,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/KPop_Sleeping_Beauty/KPop_Sleeping_Beauty_1080.m3u8\n",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/K+Pop/Sleeping+beauty.png",
+                "title": "Sleeping Beauty",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 7,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/KPop_Snow_White/KPop_Snow_White_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/K+Pop/snowwhite.png",
+                "title": "Snow White",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 8,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/KPop_We_are_Princesses/KPop_We_are_Princesses_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/K+Pop/we+are+princess.png",
+                "title": "We are Princesses",
+                "isActive": 1,
+                "length": 796
+            }
+        ]
+    },
+    {
+        "id": "babyfinn",
+        "episodes": [
+            {
+                "index": 1,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/BabyFinn_01_Baby_Shark/BabyFinn_01_Baby_Shark_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/BabyFinn/01+Baby+shark.png",
+                "title": "Baby Shark",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 2,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/BabyFinn_02_Five_Little_Sharks/BabyFinn_02_Five_Little_Sharks_1080.m3u8\n",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/BabyFinn/02+five+little+shark.png",
+                "title": "Five Little Sharks",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 3,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/BabyFinn_03_Good_Morning_Song/BabyFinn_03_Good_Morning_Song_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/BabyFinn/03+Good+moring+song.png",
+                "title": "Good Morning Song",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 4,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/BabyFinn_04_Baby_Car/BabyFinn_04_Baby_Car_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/BabyFinn/04-+Baby+car.png",
+                "title": "Baby Car",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 5,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/BabyFinn_05_Bike_Song/BabyFinn_05_Bike_Song_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/BabyFinn/Bike+song.png",
+                "title": "Bike Song",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 6,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/BabyFinn_06_Yes_Papa_Song/BabyFinn_06_Yes_Papa_Song_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/BabyFinn/yes+papa+song.png",
+                "title": "Yes, Papa Song",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 7,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/BabyFinn_07_Walking_Walking/BabyFinn_07_Walking_Walking_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/BabyFinn/walking+walking.png",
+                "title": "Walking Walking",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 8,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/BabyFinn_08_Color_Buses/BabyFinn_08_Color_Buses_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/BabyFinn/color+buses+1.png",
+                "title": "Color Buses",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 9,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/BabyFinn_09_Bath_Song/BabyFinn_09_Bath_Song_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/BabyFinn/Bath+song.png",
+                "title": "Bath Song",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 10,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/BabyFinn_10_Brush_Your_Teeth/BabyFinn_10_Brush_Your_Teeth_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/BabyFinn/brush+your+teeth.png",
+                "title": "Brush Your Teeth",
+                "isActive": 1,
+                "length": 796
+            }
+        ]
+    },
+    {
+        "id": "d&nscience",
+        "episodes": [
+            {
+                "index": 1,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/12._Create_a_Secret_Message_and_more_science_DIY_videos_-_Darwin_and_Newts_comp/12._Create_a_Secret_Message_and_more_science_DIY_videos_-_Darwin_and_Newts_comp_1080.m3u8",
+                "thumbnail": "https://d10p6gtrw4vlq8.cloudfront.net/Updated/DarwinDIY012.png",
+                "title": "D&N SCIENCE - SECRET MESSAGE EXPERIMENT",
+                "isActive": 1,
+                "length": 933
+            },
+            {
+                "index": 2,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/13._How_to_Press_Flowers_and_more_science_DIY_videos_-_Darwin_and_Newts_comp/13._How_to_Press_Flowers_and_more_science_DIY_videos_-_Darwin_and_Newts_comp_1080.m3u8",
+                "thumbnail": "https://d10p6gtrw4vlq8.cloudfront.net/Updated/DarwinDIY013.png",
+                "title": "D&N SCIENCE - PRESSED FLOWERS EXPERIMENT",
+                "isActive": 1,
+                "length": 827
+            },
+            {
+                "index": 3,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/14._Sound_Delay_Experiment_and_more_science_DIY_videos_-_Darwin_and_Newts_comp/14._Sound_Delay_Experiment_and_more_science_DIY_videos_-_Darwin_and_Newts_comp_1080.m3u8",
+                "thumbnail": "https://d10p6gtrw4vlq8.cloudfront.net/Updated/DarwinDIY014.png",
+                "title": "D&N SCIENCE - SOUND DELAY EXPERIMENT",
+                "isActive": 1,
+                "length": 835
+            },
+            {
+                "index": 4,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/15._Water_Siphon_Experiment_and_more_science_DIY_videos_-_Darwin_and_Newts_comp/15._Water_Siphon_Experiment_and_more_science_DIY_videos_-_Darwin_and_Newts_comp_1080.m3u8",
+                "thumbnail": "https://d10p6gtrw4vlq8.cloudfront.net/Updated/DarwinDIY015.png",
+                "title": "D&N SCIENCE - WATER SIPHON EXPERIMENT",
+                "isActive": 1,
+                "length": 964
+            }
+        ]
+    },
+    {
+        "id": "d&n",
+        "episodes": [
+            {
+                "index": 1,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Darwin_Newts_EP015_HD1080_25fps_H264/Darwin_Newts_EP015_HD1080_25fps_H264/Darwin_Newts_EP015_HD1080_25fps_H264_1080.m3u8",
+                "thumbnail": "https://d10p6gtrw4vlq8.cloudfront.net/Updated/Darwin015.png",
+                "title": "D&N - MONARCH BUTTERFLY",
+                "isActive": 1,
+                "length": 616
+            },
+            {
+                "index": 2,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Darwin_Newts_EP016_HD1080_25fps_H264/Darwin_Newts_EP016_HD1080_25fps_H264/Darwin_Newts_EP016_HD1080_25fps_H264_1080.m3u8",
+                "thumbnail": "https://d10p6gtrw4vlq8.cloudfront.net/Updated/Darwin016.png",
+                "title": "D&N - BURPEE'S COUSINS COME TO STAY",
+                "isActive": 1,
+                "length": 614
+            },
+            {
+                "index": 3,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Darwin_Newts_EP017_HD1080_25fps_H264/Darwin_Newts_EP017_HD1080_25fps_H264/Darwin_Newts_EP017_HD1080_25fps_H264_1080.m3u8",
+                "thumbnail": "https://d10p6gtrw4vlq8.cloudfront.net/Updated/Darwin017.png",
+                "title": "D&N - MANUITI LEARNS TO FLY",
+                "isActive": 1,
+                "length": 616
+            },
+            {
+                "index": 4,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Darwin_Newts_EP018_HD1080_25fps_H264/Darwin_Newts_EP018_HD1080_25fps_H264/Darwin_Newts_EP018_HD1080_25fps_H264_1080.m3u8",
+                "thumbnail": "https://d10p6gtrw4vlq8.cloudfront.net/Updated/Darwin018.png",
+                "title": "D&N - CRABBY CRABS",
+                "isActive": 1,
+                "length": 616
+            },
+            {
+                "index": 5,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Darwin_Newts_EP019_HD1080_25fps_H264/Darwin_Newts_EP019_HD1080_25fps_H264/Darwin_Newts_EP019_HD1080_25fps_H264_1080.m3u8",
+                "thumbnail": "https://d10p6gtrw4vlq8.cloudfront.net/Updated/Darwin019.png",
+                "title": "D&N - CHEEKY KEA",
+                "isActive": 1,
+                "length": 615
+            },
+            {
+                "index": 6,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Darwin_Newts_EP020_HD1080_25fps_H264/Darwin_Newts_EP020_HD1080_25fps_H264/Darwin_Newts_EP020_HD1080_25fps_H264_1080.m3u8",
+                "thumbnail": "https://d10p6gtrw4vlq8.cloudfront.net/Updated/Darwin020.png",
+                "title": "D&N - THE BIG APPLE RUN",
+                "isActive": 1,
+                "length": 616
+            },
+            {
+                "index": 7,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Darwin_Newts_EP021_HD1080_25fps_H264/Darwin_Newts_EP021_HD1080_25fps_H264/Darwin_Newts_EP021_HD1080_25fps_H264_1080.m3u8",
+                "thumbnail": "https://d10p6gtrw4vlq8.cloudfront.net/Updated/Darwin021.png",
+                "title": "D&N - OUR LITTLE FOREST FRIENDS",
+                "isActive": 1,
+                "length": 616
+            },
+            {
+                "index": 8,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Darwin_Newts_EP022_HD1080_25fps_H264/Darwin_Newts_EP022_HD1080_25fps_H264/Darwin_Newts_EP022_HD1080_25fps_H264_1080.m3u8",
+                "thumbnail": "https://d10p6gtrw4vlq8.cloudfront.net/Updated/Darwin022.png",
+                "title": "D&N - THE BIG STICKY WEB",
+                "isActive": 1,
+                "length": 617
+            },
+            {
+                "index": 9,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Darwin_Newts_EP023_HD1080_25fps_H264/Darwin_Newts_EP023_HD1080_25fps_H264/Darwin_Newts_EP023_HD1080_25fps_H264_1080.m3u8",
+                "thumbnail": "https://d10p6gtrw4vlq8.cloudfront.net/Updated/Darwin023.png",
+                "title": "D&N - HENI PAINTS A PICTURE",
+                "isActive": 1,
+                "length": 617
+            },
+            {
+                "index": 10,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Darwin_Newts_EP024_HD1080_25fps_H264/Darwin_Newts_EP024_HD1080_25fps_H264/Darwin_Newts_EP024_HD1080_25fps_H264_1080.m3u8",
+                "thumbnail": "https://d10p6gtrw4vlq8.cloudfront.net/Updated/Darwin024.png",
+                "title": "D&N - NOISY NEWTS",
+                "isActive": 1,
+                "length": 618
+            },
+            {
+                "index": 11,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Darwin_Newts_EP025_HD1080_25fps_H264/Darwin_Newts_EP025_HD1080_25fps_H264/Darwin_Newts_EP025_HD1080_25fps_H264_1080.m3u8",
+                "thumbnail": "https://d10p6gtrw4vlq8.cloudfront.net/Updated/Darwin025.png",
+                "title": "D&N - BURPEE AND CROAKETTE'S ICESKATING RINK",
+                "isActive": 1,
+                "length": 616
+            },
+            {
+                "index": 12,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Darwin_Newts_EP026_HD1080_25fps_H264/Darwin_Newts_EP026_HD1080_25fps_H264/Darwin_Newts_EP026_HD1080_25fps_H264_1080.m3u8",
+                "thumbnail": "https://d10p6gtrw4vlq8.cloudfront.net/Updated/Darwin026.png",
+                "title": "D&N - BLUEY THE PENGUIN",
+                "isActive": 1,
+                "length": 616
+            },
+            {
+                "index": 13,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Darwin_Newts_EP027_HD1080_25fps_H264/Darwin_Newts_EP027_HD1080_25fps_H264/Darwin_Newts_EP027_HD1080_25fps_H264_1080.m3u8",
+                "thumbnail": "https://d10p6gtrw4vlq8.cloudfront.net/Updated/Darwin027.png",
+                "title": "D&N - BALLOON POWERED ROCKET CAR",
+                "isActive": 1,
+                "length": 616
+            }
+        ]
+    },
+    {
+        "id": "babyshark",
+        "episodes": [
+            {
+                "index": 1,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Baby_Shark_01_Baby_Shark/Baby_Shark_01_Baby_Shark_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Baby+Shark/1+baby+shark.png",
+                "title": "Baby Shark",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 2,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Baby_Shark_02_A_Terrifying_Hide_and_Seek_with_the_Shark_Family/Baby_Shark_02_A_Terrifying_Hide_and_Seek_with_the_Shark_Family_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Baby+Shark/2.png",
+                "title": "A Terrifying Hide and Seek with the Shark Family",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 3,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Baby_Shark_03_Lets_Rescue_William_with_Baby_Shark/Baby_Shark_03_Lets_Rescue_William_with_Baby_Shark_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Baby+Shark/Resue+william.png",
+                "title": "Let's Rescue William with Baby Shark!",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 4,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Baby_Shark_04_Halloween_Sharks/Baby_Shark_04_Halloween_Sharks_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Baby+Shark/Halloween+shark.png",
+                "title": "Halloween Sharks",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 5,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Baby_Shark_05_Christmas_Sharks/Baby_Shark_05_Christmas_Sharks_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Baby+Shark/christmas.png",
+                "title": "Christmas Sharks",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 6,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Baby_Shark_06_8-Bit_Baby_Shark/Baby_Shark_06_8-Bit_Baby_Shark_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Baby+Shark/Bit+baby+shark.png",
+                "title": "8-Bit Baby Shark",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 7,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Baby_Shark_07_If_Sharks_Are_Happy/Baby_Shark_07_If_Sharks_Are_Happy_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Baby+Shark/if+sharks+are+happy.png",
+                "title": "If Sharks Are Happy",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 8,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Baby_Shark_08_Where_Is_Daddy_Shark/Baby_Shark_08_Where_Is_Daddy_Shark_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Baby+Shark/where+is+daddy.png",
+                "title": "Where Is Daddy Shark",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 9,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Baby_Shark_09_Clay_Baby_Shark/Baby_Shark_09_Clay_Baby_Shark_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Baby+Shark/clay+baby+shark.png",
+                "title": "Clay Baby Shark",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 10,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/Baby_Shark_10_Shark_ABC/Baby_Shark_10_Shark_ABC_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Baby+Shark/ABC+shark.png",
+                "title": "Shark ABC",
+                "isActive": 1,
+                "length": 796
+            },
+            {
+                "index": 11,
+                "url": "https://d1wfmi80ljcet8.cloudfront.net/MWS01_proxy_EN/MWS01_proxy_EN_1080.m3u8",
+                "thumbnail": "https://d1lfhez3du8qvs.cloudfront.net/PinkFong-Videos/Thumbnails/Baby+Shark/1+baby+shark.png",
+                "title": "Masha 1",
+                "isActive": 1,
+                "length": 796
+            }
+        ]
+    }
+]
