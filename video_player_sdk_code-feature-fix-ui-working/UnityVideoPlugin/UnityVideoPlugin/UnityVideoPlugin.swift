@@ -124,48 +124,33 @@ public class PlayerController: NSObject, ObservableObject {
   }
   
   @objc private func playerDidFinishPlaying(_ notification: Notification) {
-      
       guard let playlist = playlistController,
             let currentID = playlist.currentVideoID,
             let index = playlist.videos.firstIndex(where: { $0.id == currentID }) else {
           return
       }
-      
+
       playlist.videoCompleted(id: currentID)
-      
+
       if index + 1 < playlist.videos.count {
-          let nextVideo = playlist.videos[index + 1]
-          loadVideo(urlString: urls[index + 1])
-          playlist.videoStarted(id: nextVideo.id)
-      } else {
-          // Fully completed show
-          if playlist.allVideoWatched() {
-            if playlist.nextPlaylist == nil {
-              self.playlistController = nil
-              backToHome()
-            } else {
-              guard let nextPlaylist = playlist.nextPlaylist else { return }
-              playlist.userSelectedPlaylist(nextPlaylist)
-              let urls = playlist.videos.map(\.url)
-              setURLS(urls)
-              if let index = playlist.firstUnwatchedVideoID() {
-                currentIndex = index
-              }else {
-                currentIndex = index
-              }
-            }
-          } else {
-            if let index = playlist.firstUnwatchedVideoID() {
-              currentIndex = index
-            }else {
-              currentIndex = index
-            }
-          }
-        print("currentIndex")
+          currentIndex = index + 1
+          let nextVideo = playlist.videos[currentIndex]
           loadVideo(urlString: urls[currentIndex])
-          let restartID = playlist.videos[currentIndex].id
-          playlist.videoStarted(id: restartID)
+          playlist.videoStarted(id: nextVideo.id)
+          return
       }
+
+      if playlist.allVideoWatched(), let nextPlaylist = playlist.nextPlaylist {
+          playlist.userSelectedPlaylist(nextPlaylist)
+          let nextPlaylistURLs = playlist.videos.map(\.url)
+          setURLS(nextPlaylistURLs)
+      }
+
+      let resumeIndex = playlist.firstUnwatchedVideoID() ?? 0
+      currentIndex = resumeIndex
+      loadVideo(urlString: urls[currentIndex])
+      let resumeVideoID = playlist.videos[currentIndex].id
+      playlist.videoStarted(id: resumeVideoID)
   }
 
   
